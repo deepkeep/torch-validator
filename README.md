@@ -25,5 +25,5 @@ uploaded, using `deepkeep/xor-validation-data` as the validation dataset.
 ## Running locally
 
 ```sh
-docker run -v /path/to/network.zip:/packages/network.zip -v /path/to/validation-data.zip:/packages/validation-data.zip docker.deepkeep.co/deepkeep/torch-validator
+docker run -v /path/to/network:/packages/network -v /path/to/validation-data:/packages/validation-data docker.deepkeep.co/deepkeep/torch-validator
 ```
